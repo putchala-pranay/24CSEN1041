@@ -1,11 +1,9 @@
 def convert_to_base(num, base):
     digits_map = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
    
     if num == 0:
         return "0"
 
- 
     is_negative = num < 0
     num = abs(num)
 
